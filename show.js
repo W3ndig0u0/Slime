@@ -29,3 +29,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
   clearTimeout(timer);
 }
+
+function menu(x) {
+  x.classList.toggle("change");
+}
