@@ -9,6 +9,7 @@ html {
   max-height: 100%;
   margin: 0;
   padding: 0;
+  background-color: bisque;
 }
 
 .grid {
@@ -19,10 +20,11 @@ html {
 
 .left {
   text-align: center;
+  margin-left: 2rem;
 }
 
 .title {
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 .words {
@@ -37,10 +39,11 @@ footer {
   position: absolute;
   top: 80%;
   left: 35%;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .slides img {
+  margin-top: 4rem;
   width: 100%;
 }
 
