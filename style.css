@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  height: 100vh;
+}
+
+.left {
+  text-align: center;
+}
+
+.title {
+  margin-top: 1rem;
+}
+
+.words {
+  margin-top: 2rem;
+}
+
+.lorem {
+  margin-top: 10rem;
+}
+
+footer {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  font-size: 1.8em;
+}
+
+.slides img {
+  width: 100%;
+}
+
+.right {
+  margin-left: 4vw;
+}
+
+.mini-img img {
+  width: 70%;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+
+.mini-img.active {
+  opacity: 0.4;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
