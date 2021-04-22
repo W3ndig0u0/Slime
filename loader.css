@@ -1,22 +1,133 @@
 /* !Loading */
 .loader-gif {
+  animation: run 2s forwards;
+  animation-delay: 14s;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 60%;
   max-height: 100%;
   z-index: 100;
+  z-index: 1;
 }
 
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  animation-name: animatebottom;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+.loader-slime1 {
+  position: fixed;
+  top: 80%;
+  left: 80%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  z-index: 1;
+  animation: jump 15.3s forwards ease-in-out;
 }
 
-.index-body.active {
-  overflow-y: hidden;
+@keyframes run {
+  from {
+    padding-right: 0px;
+  }
+  to {
+    padding-right: 3000px;
+    display: none;
+  }
+}
+
+@keyframes main {
+  from {
+    padding-left: 20000px;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    padding-left: 0px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 80%;
+    left: 80%;
+    z-index: 2;
+    padding-right: 0px;
+  }
+
+  10% {
+    top: 13%;
+    left: 62%;
+    z-index: 0;
+    transform: scale(0.8, 1.3);
+    padding-right: 0px;
+  }
+
+  20% {
+    top: 65%;
+    left: 53%;
+    z-index: 0;
+    transform: scale(1.3, 0.7);
+    padding-right: 0px;
+  }
+
+  30% {
+    top: 14%;
+    left: 46%;
+    z-index: 0;
+    transform: scale(0.8, 1.5);
+    padding-right: 0px;
+  }
+
+  40% {
+    top: 70%;
+    left: 40%;
+    z-index: 0;
+    transform: scale(1.3, 0.7);
+    padding-right: 0px;
+  }
+
+  50% {
+    top: 10%;
+    left: 34%;
+    z-index: 2;
+    transform: scale(0.8, 1.5);
+    padding-right: 0px;
+  }
+
+  60% {
+    top: 75%;
+    left: 25%;
+    z-index: 0;
+    transform: scale(1.3, 0.7);
+    padding-right: 0px;
+  }
+
+  70% {
+    top: 2%;
+    left: 22%;
+    z-index: 0;
+    transform: scale(0.8, 1.5);
+    padding-right: 0px;
+  }
+
+  80% {
+    top: 40%;
+    left: 20%;
+    z-index: 0;
+    transform: scale(1.3, 0.7);
+    padding-right: 0px;
+  }
+
+  90% {
+    top: 40%;
+    left: 20%;
+    z-index: 0;
+    transform: scale(1.1);
+    padding-right: 0px;
+  }
+
+  100% {
+    top: 40%;
+    left: 20%;
+    z-index: -2;
+    transform: scale(1);
+  }
 }

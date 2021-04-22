@@ -9,6 +9,10 @@
   -ms-user-select: none;
 }
 
+main {
+  animation: main 18s forwards ease-in-out;
+}
+
 body,
 html {
   height: 100%;
