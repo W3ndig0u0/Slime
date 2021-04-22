@@ -14,13 +14,14 @@ html {
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-columns: 3fr 4fr 1fr;
   height: 100vh;
 }
 
 .left {
   text-align: center;
-  margin-left: 2rem;
+  width: 20rem;
+  margin-left: 4vw;
 }
 
 .title {
@@ -38,8 +39,15 @@ html {
 footer {
   position: absolute;
   top: 80%;
-  left: 35%;
+  left: 10%;
   font-size: 2em;
+}
+
+.mid {
+  animation: slide 40s infinite;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slides img {
@@ -48,24 +56,21 @@ footer {
 }
 
 .right {
-  margin-left: 4vw;
+  margin-left: 2vw;
 }
 
 .mini-img img {
   width: 70%;
   margin-top: 4vh;
   cursor: pointer;
-}
-
-.mini-img.active {
-  opacity: 0.4;
+  animation: mini-img 1s infinite;
   transition: 0.5s;
-  transform: scale(1.05);
+  animation-delay: calc(var(--order) * 150ms);
 }
 
 .container {
-  margin-top: 1rem;
-  margin-left: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 2vw;
   display: inline-block;
   cursor: pointer;
 }
