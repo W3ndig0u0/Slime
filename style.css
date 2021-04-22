@@ -38,6 +38,8 @@ html {
 }
 
 .text {
+  border-top: 1px solid black;
+  padding-top: 10px;
   font-size: 24px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -69,8 +71,16 @@ footer {
 span {
   font-size: 32px;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
   color: rgb(5, 150, 240);
+  padding-top: 2px;
+}
+
+iframe {
+  padding-top: 20px;
+  zoom: 50%;
+}
+.frame-container {
+  zoom: 200%;
 }
 
 .mid {
