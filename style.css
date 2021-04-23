@@ -38,7 +38,7 @@ html {
 }
 
 .title {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .text {
@@ -46,9 +46,7 @@ html {
   padding-top: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 2vw;
-  margin-right: 4vw;
-  transform: scale(1);
+  transform: scale(0.8);
   width: 50vh;
 }
 
