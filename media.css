@@ -1,4 +1,4 @@
-@media only screen and (min-width: 200px) and (max-width: 540px) {
+@media screen and (min-width: 200px) and (max-width: 540px) {
   .grid {
     display: unset;
   }
@@ -81,7 +81,7 @@
   }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 540px) {
+@media screen and (min-width: 420px) and (max-width: 540px) {
   .grid {
     display: unset;
   }
@@ -166,7 +166,7 @@
     display: contents;
   }
 }
-@media only screen and (min-width: 540px) and (max-width: 720px) {
+@media screen and (min-width: 540px) and (max-width: 720px) {
   .grid {
     display: unset;
   }
@@ -251,7 +251,7 @@
   }
 }
 
-@media only screen and (min-width: 721px) and (max-width: 1024px) {
+@media screen and (min-width: 721px) and (max-width: 1024px) {
   .frame-container {
     zoom: 90%;
     margin-top: 2vh;
@@ -307,7 +307,7 @@
   }
 }
 
-@media only screen and (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
   .frame-container {
     zoom: 250%;
     margin-right: 2vw;
