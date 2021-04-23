@@ -10,7 +10,7 @@
 }
 
 main {
-  animation: main 1s forwards ease-in-out;
+  animation: main 16 s forwards ease-in-out;
 }
 
 body,
@@ -21,8 +21,8 @@ html {
   padding: 0;
   background-image: linear-gradient(
       to top,
-      rgba(255, 255, 255, 0.8),
-      rgba(5, 150, 240, 0.2)
+      rgba(255, 255, 255, 0.6),
+      rgba(5, 150, 240, 0.35)
     ),
     url("YEP.png");
 }
@@ -38,13 +38,13 @@ html {
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-left: 2vw;
   margin-right: 2vw;
 }
 
 .text {
-  border-top: 1px solid black;
+  border-top: 3px solid rgb(255, 81, 0);
   padding-top: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -61,19 +61,30 @@ footer {
       rgba(100, 207, 240, 1)
     ),
     url("YEP.png");
-
-  color: rgb(255, 81, 0);
-  font-size: 58px;
   letter-spacing: 0.2em;
   padding: 1vw;
   height: 100vh;
 }
 
+footer h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  color: rgb(255, 81, 0);
+}
+
+footer p {
+  color: rgb(5, 150, 240);
+  font-size: 13px;
+  padding: 0;
+  margin: 1vh;
+}
+
 .trailer {
   font-size: 32px;
-  border-top: 1px solid black;
+  border-top: 2px solid rgb(255, 81, 0);
   color: rgb(5, 150, 240);
-  padding-top: 2px;
+  padding-top: 3px;
 }
 
 iframe {
