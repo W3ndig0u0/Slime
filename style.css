@@ -9,8 +9,8 @@
   -ms-user-select: none;
 }
 
-main {
-  animation: main 16 s forwards ease-in-out;
+.main {
+  animation: main 17s forwards ease-in-out;
 }
 
 body,

@@ -1,14 +1,13 @@
 /* !Loading */
 .loader-gif {
   animation: run 2s forwards;
-  animation-delay: 13s;
+  animation-delay: 14s;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
+  width: 61%;
   max-height: 100%;
-  z-index: 100;
   z-index: 1;
 }
 
@@ -19,8 +18,9 @@
   z-index: 2;
   transform: translate(-50%, -50%);
   max-height: 100%;
+  width: 17%;
   z-index: 1;
-  animation: jump 14.3s forwards ease-in-out;
+  animation: jump 15.27s forwards ease-in-out;
 }
 
 @keyframes run {
