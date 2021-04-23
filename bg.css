@@ -1,0 +1,27 @@
+footer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(100, 207, 240, 0.18),
+      rgba(100, 207, 240, 1)
+    ),
+    url("img/YEP.png");
+}
+
+body,
+html {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.6),
+      rgba(5, 150, 240, 0.35)
+    ),
+    url("img/YEP.png");
+}
+
+@font-face {
+  font-family: "Kabrio Abarth";
+  src: url("fonts/KabrioAbarth-Regular.woff2") format("woff2"),
+    url("fonts/KabrioAbarth-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
