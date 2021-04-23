@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 540px) {
   .grid {
     display: unset;
   }
@@ -39,7 +39,9 @@
     text-align: center;
     padding: 0;
     font-size: 32px;
-    border-top: 0px solid black;
+    margin-left: 9vw;
+    width: 5rem;
+    border-bottom: 1px solid black;
     color: rgb(5, 150, 240);
   }
 
@@ -55,7 +57,7 @@
   }
 
   .frame-container2 {
-    zoom: 180%;
+    zoom: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
