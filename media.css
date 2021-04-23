@@ -77,11 +77,11 @@
   }
 
   :is(.mobile) {
-    display: contents;
+    display: unset;
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 540px) {
+@media screen and (max-width: 540px) {
   .grid {
     display: unset;
   }
@@ -163,7 +163,7 @@
   }
 
   :is(.mobile) {
-    display: contents;
+    display: unset;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 720px) {
@@ -247,7 +247,7 @@
   }
 
   :is(.mobile) {
-    display: contents;
+    display: unset;
   }
 }
 
