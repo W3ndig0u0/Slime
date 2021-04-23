@@ -1,0 +1,253 @@
+@media only screen and (max-width: 540px) {
+  .grid {
+    display: unset;
+  }
+  * {
+    overflow-y: auto;
+  }
+
+  .title {
+    width: 8rem;
+    position: relative;
+    margin-right: 40vw;
+  }
+
+  .container {
+    position: absolute;
+    overflow-y: hidden;
+    top: 1vh;
+    right: 10vw;
+  }
+
+  .text {
+    width: 35vh;
+    border-top: 0px solid black;
+    transform: scale(1.25, 1.1);
+  }
+
+  .mid {
+    animation: slide infinite ease-in-out;
+    animation-duration: 100s;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .trailer2 {
+    text-align: center;
+    padding: 0;
+    font-size: 28px;
+    margin-left: 10vw;
+    width: 4rem;
+    border-bottom: 3px solid blue;
+    color: rgb(5, 150, 240);
+  }
+
+  .mobile-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+    font-size: 48px;
+    letter-spacing: 0.3em;
+    padding: 1vw;
+    height: 20vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(100, 207, 240, 0.18),
+        rgba(100, 207, 240, 0.4)
+      ),
+      url("img/YEP.png");
+  }
+
+  .frame-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+
+  :is(.mini-img, .frame-container, .trailer, .big-footer) {
+    display: none;
+  }
+
+  :is(.mobile) {
+    display: contents;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 540px) {
+  .grid {
+    display: unset;
+  }
+  * {
+    overflow-y: auto;
+  }
+
+  .title {
+    width: 10rem;
+    position: relative;
+    margin-right: 45vw;
+  }
+
+  .container {
+    position: absolute;
+    overflow-y: hidden;
+    top: 1%;
+    right: 8vw;
+  }
+
+  .text {
+    width: 42vh;
+    border-top: 0px solid black;
+    transform: scale(1.4, 1.2);
+    margin-bottom: 6vh;
+  }
+
+  .mid {
+    animation: slide infinite ease-in-out;
+    animation-duration: 100s;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .trailer2 {
+    text-align: center;
+    padding: 0;
+    font-size: 32px;
+    margin-left: 10vw;
+    width: 5rem;
+    border-bottom: 3px solid blue;
+    color: rgb(5, 150, 240);
+  }
+
+  .mobile-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+    font-size: 52px;
+    letter-spacing: 0.3em;
+    padding: 1vw;
+    height: 20vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(100, 207, 240, 0.18),
+        rgba(100, 207, 240, 0.4)
+      ),
+      url("img/YEP.png");
+  }
+
+  .frame-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 125%;
+    margin: 0px;
+    margin-bottom: 5vh;
+  }
+
+  :is(.mini-img, .frame-container, .trailer, .big-footer) {
+    display: none;
+  }
+
+  :is(.mobile) {
+    display: contents;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+  .grid {
+    display: unset;
+  }
+  * {
+    overflow-y: auto;
+  }
+
+  .title {
+    width: 10rem;
+    position: relative;
+    margin-right: 60vw;
+  }
+
+  .container {
+    position: absolute;
+    overflow-y: hidden;
+    top: 2%;
+    right: 5vw;
+  }
+
+  .text {
+    width: 45vh;
+    border-top: 0px solid black;
+    transform: scale(1.55, 1.2);
+    margin-bottom: 8vh;
+  }
+
+  .mid {
+    animation: slide infinite ease-in-out;
+    animation-duration: 100s;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .trailer2 {
+    text-align: center;
+    padding: 0;
+    font-size: 38px;
+    margin-left: 10vw;
+    width: 6rem;
+    border-bottom: 3px solid blue;
+    color: rgb(5, 150, 240);
+  }
+
+  .mobile-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+    font-size: 52px;
+    letter-spacing: 0.3em;
+    padding: 1vw;
+    height: 20vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(100, 207, 240, 0.18),
+        rgba(100, 207, 240, 0.4)
+      ),
+      url("img/YEP.png");
+  }
+
+  .frame-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 180%;
+    margin: 0px;
+    margin-bottom: 2vh;
+  }
+
+  :is(.mini-img, .frame-container, .trailer, .big-footer) {
+    display: none;
+  }
+
+  :is(.mobile) {
+    display: contents;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
