@@ -84,7 +84,8 @@
   .grid {
     display: unset;
   }
-  * {
+  html,
+  body {
     overflow-y: auto;
   }
 
@@ -94,11 +95,12 @@
     margin-right: 45vw;
   }
 
-  .container {
+  .mobile-menu {
     position: absolute;
-    overflow-y: hidden;
-    top: 1%;
-    right: 8vw;
+    overflow: hidden;
+    top: 1vh;
+    right: 10vw;
+    display: unset;
   }
 
   .text {
@@ -167,7 +169,8 @@
   .grid {
     display: unset;
   }
-  * {
+  html,
+  body {
     overflow-y: auto;
   }
 

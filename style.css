@@ -24,6 +24,7 @@
 
 body,
 html {
+  overflow: hidden;
   height: 100%;
   max-height: 100%;
   margin: 0;
@@ -101,6 +102,7 @@ iframe {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .frame-container {
   display: flex;
   justify-content: center;
@@ -127,7 +129,7 @@ iframe {
 }
 
 .right {
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 
 .mini-img img {
@@ -139,7 +141,7 @@ iframe {
 
 .container {
   margin-top: 5vh;
-  margin-left: 2vw;
+  margin-left: 1.5vw;
   cursor: pointer;
 }
 
