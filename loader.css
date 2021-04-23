@@ -1,7 +1,7 @@
 /* !Loading */
 .loader-gif {
   animation: run 2s forwards;
-  animation-delay: 14s;
+  animation-delay: 13s;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -20,7 +20,7 @@
   max-height: 100%;
   width: 17%;
   z-index: 1;
-  animation: jump 15.27s forwards ease-in-out;
+  animation: jump 14.27s forwards ease-in-out;
 }
 
 @keyframes run {
