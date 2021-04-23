@@ -55,8 +55,8 @@ html {
 footer {
   background-image: linear-gradient(
       to bottom,
-      rgba(100, 207, 240, 0.1),
-      rgba(100, 207, 240, 0.7)
+      rgba(100, 207, 240, 0.3),
+      rgba(100, 207, 240, 0.8)
     ),
     url("YEP.png");
 
