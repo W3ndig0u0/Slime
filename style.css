@@ -52,12 +52,13 @@ html {
   margin-top: 1.5rem;
   margin-left: 2vw;
   margin-right: 2vw;
+  margin-bottom: 2vh;
 }
 
 .text {
   border-top: 3px solid rgb(255, 81, 0);
   padding-top: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 2vh;
   margin-left: 1vw;
   margin-right: 2vw;
   transform: scale(0.9);
@@ -147,7 +148,7 @@ iframe {
 
 .mobile-menu {
   cursor: pointer;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-left: 2vw;
 }
 
