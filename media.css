@@ -1,4 +1,4 @@
-@media screen and (min-width: 200px) and (max-width: 540px) {
+@media screen and (max-width: 541px) {
   .grid {
     display: unset;
   }
@@ -22,7 +22,7 @@
   }
 
   .text {
-    width: 35vh;
+    width: 30vh;
     border-top: 0px solid black;
     transform: scale(1.25, 1.1);
   }
@@ -105,7 +105,7 @@
   }
 
   .text {
-    width: 42vh;
+    width: 32vh;
     border-top: 0px solid black;
     transform: scale(1.4, 1.2);
     margin-bottom: 6vh;
