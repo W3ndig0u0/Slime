@@ -174,7 +174,7 @@
     overflow-y: auto;
   }
 
-  :is(.mini-img, .frame-container, .trailer, .big-footer .contariner) {
+  :is(.mini-img, .frame-container, .trailer, .big-footer, .contariner) {
     display: none !important ;
   }
 
