@@ -19,7 +19,7 @@
 }
 
 .main {
-  animation: main 15s forwards ease-in-out;
+  animation: main 1s forwards ease-in-out;
 }
 
 body,
@@ -68,11 +68,11 @@ html {
 footer {
   letter-spacing: 0.2em;
   padding: 1vw;
-  height: 100vh;
+  height: 15vh;
   background-image: linear-gradient(
       to bottom,
       rgba(100, 207, 240, 0.18),
-      rgba(100, 207, 240, 1)
+      rgba(100, 207, 240, 0.6)
     ),
     url("img/YEP.png");
 }
@@ -125,7 +125,8 @@ iframe {
 }
 
 /* !Right */
-:is(.mobile, .mobile-menu) {
+.mobile,
+.mobile-menu {
   display: none;
 }
 

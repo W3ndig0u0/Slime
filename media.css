@@ -7,11 +7,15 @@
     overflow-y: auto;
   }
 
-  :is(.mini-img, .frame-container, .trailer, .big-footer, .container) {
+  .mini-img,
+  .frame-container,
+  .trailer,
+  .big-footer,
+  .container {
     display: none !important ;
   }
 
-  :is(.mobile) {
+  .mobile {
     display: unset !important ;
   }
 
@@ -88,12 +92,15 @@
   body {
     overflow-y: auto;
   }
-
-  :is(.mini-img, .frame-container, .trailer, .big-footer, .contariner) {
+  .mini-img,
+  .frame-container,
+  .trailer,
+  .big-footer,
+  .container {
     display: none !important ;
   }
 
-  :is(.mobile) {
+  .mobile {
     display: unset !important ;
   }
 
@@ -174,11 +181,15 @@
     overflow-y: auto;
   }
 
-  :is(.mini-img, .frame-container, .trailer, .big-footer, .contariner) {
+  .mini-img,
+  .frame-container,
+  .trailer,
+  .big-footer,
+  .contariner {
     display: none !important ;
   }
 
-  :is(.mobile) {
+  .mobile {
     display: unset !important ;
   }
 
