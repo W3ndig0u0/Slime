@@ -50,6 +50,7 @@ html {
 }
 
 .title {
+  width: 60%;
   margin-top: 1.5rem;
   margin-left: 2vw;
   margin-right: 2vw;
@@ -114,6 +115,7 @@ footer p {
 iframe {
   padding-top: 20px;
   padding-bottom: 20px;
+  border: none;
 }
 
 .frame-container {
