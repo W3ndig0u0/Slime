@@ -1,14 +1,12 @@
 * {
   box-sizing: border-box;
   overflow: hidden;
-  /* !Undraggable */
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
 @font-face {
   font-family: "Kabrio Abarth";
   src: url("/fonts/KabrioAbarth-Regular.woff2") format("woff2"),
@@ -17,12 +15,10 @@
   font-style: normal;
   font-display: swap;
 }
-
 .main {
   animation: main 5s forwards;
   animation-duration: 9s;
 }
-
 body,
 html {
   overflow: hidden;
@@ -38,17 +34,14 @@ html {
     ),
     url("img/YEP.png");
 }
-
 .grid {
   display: grid;
   grid-template-columns: 2.5fr 4fr 1fr;
   height: 100vh;
 }
-
 .left {
   text-align: center;
 }
-
 .title {
   width: 60%;
   margin-top: 1.5rem;
@@ -56,7 +49,6 @@ html {
   margin-right: 2vw;
   margin-bottom: 2vh;
 }
-
 .text {
   border-top: 3px solid rgb(255, 81, 0);
   padding-top: 10px;
@@ -66,7 +58,6 @@ html {
   transform: scale(0.9);
   width: 45vh;
 }
-
 footer {
   letter-spacing: 0.2em;
   padding: 1vw;
@@ -78,21 +69,18 @@ footer {
     ),
     url("img/YEP.png");
 }
-
 footer h1 {
   padding: 0;
   margin: 0;
   font-size: 32px;
   color: rgb(255, 81, 0);
 }
-
 footer p {
   color: rgb(5, 150, 240);
   font-size: 13px;
   padding: 0;
   margin: 1vh;
 }
-
 .mobile-footer {
   text-align: center;
   padding: 4vw;
@@ -103,7 +91,6 @@ footer p {
     ),
     url("img/YEP.png");
 }
-
 .trailer {
   font-size: 32px;
   border-top: 2.5px solid rgb(255, 81, 0);
@@ -111,13 +98,11 @@ footer p {
   padding-top: 3px;
   margin-right: 18vw;
 }
-
 iframe {
   padding-top: 20px;
   padding-bottom: 20px;
   border: none;
 }
-
 .frame-container {
   display: flex;
   justify-content: center;
@@ -126,8 +111,6 @@ iframe {
   margin-bottom: 2vh;
   zoom: 130%;
 }
-/* !Mid */
-
 .mid {
   animation: slide 100s infinite ease-in-out;
   min-height: 100vh;
@@ -137,24 +120,19 @@ iframe {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* !Right */
 .mobile,
 .mobile-menu {
   display: none;
 }
-
 .right {
   margin-left: 3vw;
 }
-
 .mini-img img {
   width: 60%;
   margin-top: 3vh;
   animation: mini-img 15s infinite;
   animation-delay: calc(var(--order) * 15s);
 }
-
 .container {
   margin-top: 5vh;
   margin-left: 1.5vw;
@@ -164,12 +142,10 @@ iframe {
   z-index: 10;
   transition: 1s;
 }
-
 .bar4 {
   font-size: 1.3em;
   margin-left: 0.2rem;
 }
-
 .mobile-menu {
   cursor: pointer;
   margin-top: 5vh;
@@ -178,24 +154,20 @@ iframe {
   z-index: 10;
   transition: 1s;
 }
-
 .container:hover,
 .container:active {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 100%;
 }
-
 .container.change {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 100%;
 }
-
 .mobile-menu:hover,
 .mobile-menu:active {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 100%;
 }
-
 .bar1,
 .bar2,
 .bar3 {
@@ -205,17 +177,14 @@ iframe {
   margin: 5px 0;
   transition: 0.5s;
 }
-
 .change .bar1,
 .change .bar2,
 .change .bar3 {
   display: none;
 }
-
 .bar4 {
   display: none;
 }
-
 .change .bar4 {
   display: unset;
 }

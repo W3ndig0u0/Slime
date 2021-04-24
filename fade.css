@@ -2,32 +2,25 @@
   0% {
     background-image: url("https://pbs.twimg.com/media/Exc0eKeWYAAviPa.jpg");
   }
-
   15% {
     background-image: url("https://images3.alphacoders.com/821/thumb-1920-821347.png");
   }
-
   25% {
     background-image: url("https://slime300-anime.com/static/a2a5d8a583acad23e9276580866d3aac/25f09/keyvisual02.webp");
   }
-
   45% {
     background-image: url("https://otakuusamagazine.com/wp-content/uploads/2021/02/ousa_slimes_02.jpg");
   }
-
   65% {
     background-image: url("https://cdn.epicstream.com/assets/uploads/newscover/1618432519How_Many_Episodes_Will_Season_1_of_Ive_Been_Killing_Slimes_for_300_Years_and_Maxed_Out_My_Level_Have_04.jpg");
   }
-
   85% {
     background-image: url("https://www.manga-raw.club/media/manga_covers/23197.jpg");
   }
-
   100% {
     background-image: url("https://pbs.twimg.com/media/Exc0eKeWYAAviPa.jpg");
   }
 }
-
 @keyframes mini-img {
   to {
     opacity: 0.6;
