@@ -50,6 +50,8 @@
     width: fit-content;
     border-bottom: 3px solid rgb(255, 81, 0);
     color: rgb(5, 150, 240);
+    margin-block-start: 1.5em;
+    margin-block-end: -0.5em;
   }
   .trailer2:nth-of-type(2) {
     margin-left: 60vw;
@@ -111,13 +113,15 @@
     text-align: center;
     padding: 0;
     font-size: 32px;
-    margin-left: 10vw;
+    margin-left: 15vw;
     width: fit-content;
     border-bottom: 3px solid rgb(255, 81, 0);
     color: rgb(5, 150, 240);
+    margin-block-start: 1.5em;
+    margin-block-end: 0em;
   }
   .trailer2:nth-of-type(2) {
-    margin-left: 70vw;
+    margin-left: 65vw;
   }
   .frame-container2 {
     display: flex;
@@ -178,10 +182,12 @@
     text-align: center;
     padding: 0;
     font-size: 38px;
-    margin-left: 10vw;
+    margin-left: 8vw;
     width: fit-content;
     border-bottom: 3px solid rgb(255, 81, 0);
     color: rgb(5, 150, 240);
+    margin-block-start: 1.5em;
+    margin-block-end: 0em;
   }
   .trailer2:nth-of-type(2) {
     text-align: end;
@@ -193,7 +199,7 @@
     align-items: center;
     zoom: 180%;
     margin: 0px;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
   }
 }
 @media screen and (min-width: 721px) and (max-width: 1024px) {
@@ -262,20 +268,12 @@
   }
   .trailer {
     font-size: 52px;
-    border-top: 2px solid rgb(255, 81, 0);
-    color: rgb(5, 150, 240);
     padding-top: 2px;
   }
   footer {
     letter-spacing: 0.2em;
     padding-top: 3vh;
     height: 100vh;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(100, 207, 240, 0.18),
-        rgba(100, 207, 240, 1)
-      ),
-      url("img/YEP.png");
   }
   footer h1 {
     font-size: 62px;
@@ -288,7 +286,6 @@
   .bar3 {
     width: 100px;
     height: 4px;
-    background-color: #333;
     margin: 14px 0;
     transition: 0.5s;
   }
