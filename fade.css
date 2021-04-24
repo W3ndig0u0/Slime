@@ -29,11 +29,11 @@
 }
 
 @keyframes mini-img {
-  from {
-    opacity: 0.4;
+  to {
+    opacity: 0.6;
     transform: scale(1.1);
   }
-  to {
+  from {
     opacity: 1;
     transform: scale(1);
   }

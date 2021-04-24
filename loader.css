@@ -1,8 +1,8 @@
 /* !Loading */
 .loader-gif {
-  animation: run 2s forwards;
-  animation-delay: 1s;
-  position: fixed;
+  animation: run 1s forwards;
+  animation-delay: 4s;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -20,7 +20,7 @@
   max-height: 100%;
   width: 17%;
   z-index: 1;
-  animation: jump 1.27s forwards ease-in-out;
+  animation: jump 4.5s forwards;
 }
 
 @keyframes run {
@@ -28,17 +28,19 @@
     padding-right: 0px;
   }
   to {
-    padding-right: 3000px;
+    padding-right: 1000px;
     display: none;
   }
 }
 
 @keyframes main {
   from {
-    padding-left: 20000px;
+    padding-left: 6000px;
+    display: none;
     opacity: 0;
   }
   to {
+    display: unset;
     opacity: 1;
     padding-left: 0px;
   }
